@@ -110,9 +110,6 @@ MediManage is a full-stack web application designed to streamline the management
   - Book and manage appointments.
   - Update profile information.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
@@ -120,5 +117,5 @@ If you have any questions or suggestions, feel free to reach out:
 
 - **Aman Gupta**
   - [GitHub](https://github.com/aman-gupta-16)
-  - [LinkedIn](https://www.linkedin.com/in/aman-gupta-16/)
+  - [LinkedIn](https://www.linkedin.com/in/aman-gupta-50535521a/)
 ```
