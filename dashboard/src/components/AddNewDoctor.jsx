@@ -55,7 +55,7 @@ const AddNewDoctor = () => {
       // formData.append("docAvatar", docAvatar);
       await axios
         .post(
-          " http://localhost:3000/api/v1/user/doctor/addnew",
+          " https://medimanage-backend.onrender.com/api/v1/user/doctor/addnew",
           {
             firstName,
             lastName,

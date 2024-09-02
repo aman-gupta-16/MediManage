@@ -12,7 +12,7 @@ const Messages = () => {
     const fetchMessages = async () => {
       try {
         const { data } = await axios.get(
-          " http://localhost:3000/api/v1/message/getall",
+          " https://medimanage-backend.onrender.com/api/v1/message/getall",
           { withCredentials: true }
         );
         setMessages(data.messages);
@@ -26,7 +26,7 @@ const Messages = () => {
   const handleDeleteMessage = async (messageId) => {
     try {
       await axios.delete(
-        ` http://localhost:3000/api/v1/message/delete/${messageId}`,
+        ` https://medimanage-backend.onrender.com/api/v1/message/delete/${messageId}`,
         { withCredentials: true }
       );
       toast.success("Message deleted successfully.");

@@ -27,7 +27,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          " http://localhost:3000/api/v1/user/admin/me",
+          " https://medimanage-backend.onrender.com/api/v1/user/admin/me",
           {
             withCredentials: true,
           }
@@ -35,7 +35,7 @@ const App = () => {
         setIsAuthenticated(true);
         setAdmin(response.data.user);
         const response2 = await axios.get(
-          " http://localhost:3000/api/v1/user/doctors",
+          " https://medimanage-backend.onrender.com/api/v1/user/doctors",
           { withCredentials: true }
         );
         setDoctors(response2.data.doctors);

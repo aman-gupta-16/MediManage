@@ -13,7 +13,7 @@ const Doctors = () => {
   const handleDeleteDoctor = async (doctorId) => {
     try {
       await axios.delete(
-        ` http://localhost:3000/api/v1/user/doctor/delete/${doctorId}`,
+        ` https://medimanage-backend.onrender.com/api/v1/user/doctor/delete/${doctorId}`,
         { withCredentials: true }
       );
       toast.success("Doctor deleted successfully!");
