@@ -49,7 +49,7 @@ const Navbar = () => {
             <Link to={"/about"} onClick={() => setShow(!show)}>
               About Us
             </Link>
-            <a href="http://localhost:5174/" target="_blank">
+            <a href="https://medimanage-admin.onrender.com/" target="_blank">
               Admin
             </a>
           </div>
